@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.left{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), radial-gradient(84.31% 84.31% at 50% 50%, #C8D0E5 0%, #4E72CC 43.65%, #0E0C62 100%);
+    width :50%;
+    height:100vh;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saviour{
+    font: bold;
+    color : white;
+    font-size: 1000%;
+    overflow:auto;
+}
+.right{
+    background: white;
+    width :50%;
+    float : right;
+    height:100vh;
+    display: flex;
+    
+   
+}
+.from{
+    height : 90%;
+    width : 80%;
+    justify-content: center;
+    align-items: center;
+}
+.from h1{
+    font-size: 50px;
+}
+.from p{
+    font-size: 25px;
+}
+.pass{
+    color: #4E72CC;
+    /* padding-left: 36%; */
+    display: flex;
+    align-items : right;
+    justify-content: center;
+}
+.input-box{
+    border-radius: 10px;
+    padding :10px;
+    margin : 10px 0;
+    width: 50%;
+    border: 1px solid #999;
+}
+.sign-in{
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px 0;
+    width: 50%;
+    color: white;
+    background: rgba(41, 93, 206, 0.825); 
+}
+.google{
+    border-radius: 10px;
+    padding: 8px;
+    margin : 10px 0;
+    width: 50%;
+    background: #eae0e0ef(41, 93, 206, 0.825);
+}
+.signup{
+    padding-left: 10%;
+}
