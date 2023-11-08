@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), radial-gradient(84.31% 84.31% at 50% 50%, #C8D0E5 0%, #4E72CC 43.65%, #0E0C62 100%);
+}
+
+.left h1 {
+    font-size: 8vw;
+    font-family: 'Zen Dots', sans-serif;
+    color: #FFF;
+    font-weight: normal;
+}
+
+.right {
+    display: flex;
+    float: right;
+    /* background: yellow; */
+    height: 100vh;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #F0F0F0;
+    font-family: 'Red Rose', serif;
+
+}
+
+.form {
+    /* background: red; */
+    height: 90%;
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10vw
+}
+
+.form h2 {
+    display: flex;
+    justify-content: left;
+    color: #000;
+    font-family: Red Rose;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form .otpsec {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 0.5rem;
+    height: auto;
+    /* background: yellow; */
+}
+
+.otpsec .otp {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.15), 0px 2px 31px 0px rgba(0, 0, 0, 0.10);
+    width: 21vw;
+    height: 6vh;
+    outline: none;
+    border: 0;
+}
+.continue button{
+    border-radius: 10px;
+background: #496CD1;
+color:  #FFF;
+border: 0;
+outline: none;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 10vw;
+height: 6vh;
+filter: drop-shadow(0px 4px 40px rgba(87, 132, 244, 0.50));
+}
+.continue{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 21vw;
+}
