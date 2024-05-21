@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="PRACTICE2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <img src="contact.png" alt="">
+            <h1>Employee Registration form</h1>
+        </div>
+        <div class="form">
+            <form>
+                <table >
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div align="left"><input type="radio" name="gender">Mr.
+                                <input type="radio" name="gender">Mrs.
+                                <input type="radio" name="gender">Ms.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Fname">First Name<span class="star">*</span></label></td>
+                        <td><input type="text" placeholder="First Name" id="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Lname">Last Name<span class="star">*</span></label></td>
+                        <td><input type="text" placeholder="Last Name" id="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail1">Mail Address 1</label></td>
+                        <td><input type="email" id="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail1">Mail Address 2</label></td>
+                        <td><input type="email" id="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City<span class="star">*</span></label></td>
+                        <td><input type="text" id="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="state">State<span class="star">*</span></label></td>
+                        <td><select id="input">
+                                <option>Gujrat</option>
+                                <option>Mumbai</option>
+                                <option>Kolkata</option>
+                                <option>Delhi</option>
+                                <option>Chennai</option>
+                                <option>Other</option>
+                            </select></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label for="zip">Zip<span class="star">*</span></label></td>
+                        <td><input type="text" id="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="photo">Upload Photo<span class="star">*</span></label></td>
+                        <td><input type="file" id="input"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-Mail<span class="star">*</span></label></td>
+                        <td><input type="email" id="email"placeholder="xyz@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">Mobile<span class="star">*</span></label></td>
+                        <td><input type="text" id="input" value="+91"></td>
+                    </tr>
+                    <tr>
+                        <td><div class="language" ><label for="language">Language known<span class="star">*</span></label></div></td>
+                        <td><input type="checkbox">English
+                            <br>
+                            <input type="checkbox">Hindi
+                            <br>
+                            <input type="checkbox">Bengali
+                            <br>
+                            <input type="checkbox">Gujrati
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="additional">Additional Information</label></td>
+                        <td><textarea cols="30" rows="5" placeholder="Optional...if something you want to say ...!!"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td><div class="submit"><input type="submit" value="Submit" class="button"><input type="reset" value="Reset" class="button"></div></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

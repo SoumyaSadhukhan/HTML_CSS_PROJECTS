@@ -1,0 +1,135 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: yellow;
+}
+nav{
+    height:10.92%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65%;
+}
+#prime{
+    /* background-color: aqua; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+#prime h1{
+    font-size: 130%;
+    font-weight:bold;
+    font-family: system-ui;
+}
+.login1{
+    height: 50%;
+    width: 8%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#navLogin:hover{
+    background-color: rgb(216, 157, 30);
+   
+}
+.body{
+    background-color: rgb(0, 0, 0);
+    height: 89.08%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    height: 70%;
+    width: 50%;
+    border: 2px solid rgba(169, 167, 167, 0.84);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    background: linear-gradient( to bottom right , rgb(0, 0, 0), rgb(255, 255, 255));
+    box-shadow: 10px 10px 10px rgba(141, 135, 135, 0.196);
+}
+
+
+.box{
+    background-color: rgb(255, 255, 255);
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+}
+.left,.right{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(23, 6, 117);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login2{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.signup{
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.box1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: none;
+    font-size: 100%;
+    border-radius: 15px;
+    padding-left: 5%;
+}
+.submit{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.last{
+    background-color: rgba(68, 48, 19, 0);
+    display: flex;
+    gap: 1%;
+}
+.last h1{
+    font-size: 100%;
+    color: white;
+}
+.login3{
+    background-color:rgba(252, 252, 252, 0);
+    border: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: blue;
+}
