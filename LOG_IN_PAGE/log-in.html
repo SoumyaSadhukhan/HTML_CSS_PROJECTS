@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div id="prime">
+                <h1>PRIME HOTELS</h1>
+            </div>
+
+
+            <button type="button" class="login1" id="navLogin" placeholder="Log In" onclick="LOGIN()">
+                Log In
+            </button>
+
+
+        </nav>
+        <div class="body">
+            <div id="main">
+
+
+                <div class="box">
+
+                    <div class="left"><button type="button" class="login2" id="bodyLogin" onclick="LOGIN()">
+                            <h1>Log In</h1>
+                        </button></div>
+
+
+                    <div class="right"><button type="button" id="signup" class="signup">
+                            <h1>Signup</h1>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="box " id="name">
+                    <input type="text" name="name" id="name" class="box1 " placeholder="Full name">
+                </div>
+
+
+                <div class="box ">
+                    <input type="email" name="email" id="email" class="box1 " placeholder="abcd101@gmail.com">
+                </div>
+                <div class="box ">
+                    <input type="password" name="password" id="password" class="box1 " placeholder="PaSSword@1985">
+                </div>
+                <button type="button" class="box submit" id="submit">
+                    <h1>Let's Go</h1>
+                </button>
+                <div class="box last" id="lastbox">
+                    <h1>Already have an account?</h1>
+
+
+                    <button type="button" id="footerLogin" class="login1 login3" onclick="LOGIN()"><u>login</u></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var signup = document.getElementById("signup");
+        var login2 = document.getElementById("bodyLogin");
+        var NamE = document.getElementById("name");
+        var lastBox = document.getElementById("lastbox");
+        function LOGIN() {
+
+            NamE.style.display = "none";
+            login2.style.backgroundColor = "black";
+            login2.style.color = "white";
+            signup.style.color = "black";
+            signup.style.backgroundColor = "white";
+            lastBox.style.display = "none";
+
+        }
+        signup.onclick = function () {
+
+            NamE.style.display = "flex";
+            login2.style.backgroundColor = "white";
+            login2.style.color = "black";
+            signup.style.color = "white";
+            signup.style.backgroundColor = "black";
+            lastBox.style.display = "flex";
+        }
+    </script>
+</body>
+
+</html>
